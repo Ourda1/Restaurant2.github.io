@@ -1,0 +1,83 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,700&family=Rubik:wght@300;400;700&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,700&family=Redressed&family=Rubik:wght@300;400;700&display=swap');
+
+/* representation des text  /*6 and /*7*/
+/*6*/
+.redressed {
+    font-family : 'Redressed', cursive ;
+}
+/*7*/
+.merriweather {
+    font-family :'Merriweather', serif ; 
+}
+
+
+/*1*/
+.cc-navbar{
+    background-color: rgba(0, 0 , 0, 0.55);
+    font-family : 'Merriweather' , serif;
+    box-shadow : 1px 1px 3px rgba(255, 255 , 255, 0.54);
+    z-index : 99;
+}
+/*4*/
+/* a begening to say qu on va faire soit du actif soit focus d'un evenement qui va suit qui est /*5*/
+.cc-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition : padding-bottom .4s ease-in-out , border color .3s ease ;
+}
+/*5*/
+/* bach ila werekna 3la dik accueil decouvrir ... itel3o lina lfo9 wi kebr lboutton ta3houm wi koun te7thoum wahed lkhet khder */
+.cc-navbar .nav-link:hover {
+    padding-bottom: 20px;/*l'effet de faire garndir quand on pass la souris sure */
+    border-bottom-color: var(--bs-teal) ;
+}
+/* l'arriere plan de dakchi li te7t navbar( section banner )*/
+/*8 11*/ 
+.banner , .order-form { /*zedna order form bach dakchi ta3 passer une commande iji fo9 teswera */
+    background: linear-gradient(rgba(0,0,0,.5) , rgba(0,0,0,.5)), url('../images/banniere2.jpg') center center fixed no-repeat;
+    /* rgba lewla kat3ni la couleur li kayna lfo9 o rgba tani kat3ni la couleur li te7t menha kay3tiwna effet ze3ma loun lfo9 o loun lte7t bedli l ar9am o ayban lik */ 
+    background-size: cover ;
+    height : 800px;
+}
+
+.order-form{
+    height: 500px;
+}
+
+/*9*/
+.banner .banner-desc {
+    font-size:40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/*10*/
+.cc-menu{
+    background: linear-gradient(rgba(0,0,0,.5) , rgba(0,0,0,.5)), url('../images/banniere5.jpg') center center fixed no-repeat;
+    background-size: cover ;
+    height : 1200px;
+}
+
+/*2*/
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+/*3*/
+.btn-order:hover,
+.btn-order:active {
+    color:#fff;
+    background-color:var(--bs-teal);
+
+}
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10%;
+    color: grey;
+    text-align: center;
+}
+
